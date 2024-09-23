@@ -25,7 +25,7 @@ function FruitJar() {
   return (
     <>
       <div className="w-1/2 flex flex-col justify-between">
-        <div className="flex justify-between sticky top-0 bg-background p-10 pb-5">
+        <div className="flex justify-between sticky top-0 bg-background p-10 pb-5 z-10">
           <h1 className="font-bold text-2xl">Fruit Jar</h1>
           <p className="text-2xl font-bold flex gap-1 items-center">
             <Flame size={20} />
